@@ -42,8 +42,8 @@
         <h1>
 <a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h1>
 
-<h2>
-<a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h2>
+<h1>
+<a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h1>
 
 <ul>
 <li><a href="https://www.mindsumo.com/contests/wells-fargo">Mindsumo Competition Page</a></li>
@@ -52,10 +52,10 @@
 </ul>
 
 <h1>
-<a id="syllabus" class="anchor" href="#syllabus" aria-hidden="true"><span class="octicon octicon-link"></span></a>Syllabus</h1>
+<a id="Introduction" class="anchor" href="#Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
 
 <h2>
-<a id="official-course-description" class="anchor" href="#official-course-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Official Course Description</h2>
+<a id="Approach and methodology" class="anchor" href="#approach-and-methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approach and methodology</h2>
 
 <p align="justify">
 <a href="http://www.cofc.edu"><img src="http://freyja.cs.cofc.edu/cofc.sepng" height="50" align="right" hspace="10px"> </a>
