@@ -21,14 +21,14 @@
 <p>
 <b>Question #1: What financial topics* do consumers discuss on social media and what caused the consumers to post about this topic?</b> 
 <br>
-Deliverable A - Describe your Approach and Methodology. Include a visual representation of your analytic process flow. 
-Deliverable B - Discuss the data and its relationship to social conversation drivers. 
+Deliverable A - Describe your Approach and Methodology. Include a visual representation of your analytic process flow.<br>
+Deliverable B - Discuss the data and its relationship to social conversation drivers.<br>
 Deliverable C - Document your code and reference the analytic process flow-diagram from deliverable A. 
 <br>
 <br>
 <b>Question #2: Are the topics and “substance” consistent across the industry or are they isolated to individual banks? </b>
 <br>
-Deliverable D - Create a list of topics and substance you found 
+Deliverable D - Create a list of topics and substance you found<br> 
 Deliverable E - Create a narrative of insights supported by the quantitative results (should include graphs or charts)
 <br>
 </p> 
