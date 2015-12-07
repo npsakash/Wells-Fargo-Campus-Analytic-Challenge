@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html>
+<title>Wells Fargo Campus Analytic Challenge</title>
 <body>
 
 <a href="http://www.cofc.edu"><img src="http://s8.postimg.org/thw7cx0xd/Cof_C_Logo.png" height="50" align="left" hspace="10px"> </a>
