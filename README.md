@@ -39,13 +39,14 @@
         <ul></ul>
       </nav>
       <section>
-        <h3>
-<a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h3>
+        
+<h3><a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h3>
+
 <a href="http://www.cofc.edu"><img src="http://cofc.edu/images/cofc-logo-2014d.png" height="50" align="right" hspace="10px"> </a>
 <a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" align="right" hspace="10px"> </a>
+
 <h1>
 <a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h1>
-
 <ul>
 <li><a href="https://www.mindsumo.com/contests/wells-fargo">Mindsumo Competition Page</a></li>
 <li><a href="https://d18qs7yq39787j.cloudfront.net/uploads/contestfile/92/4aa8575b843c-2015+Wells+Fargo+Campus+Analytic+Challenge+Metadata.pdf">Metadata.pdf</a></li>
