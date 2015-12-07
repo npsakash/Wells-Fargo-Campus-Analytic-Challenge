@@ -41,7 +41,8 @@
       <section>
         <h1>
 <a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h1>
-
+<a href="http://www.cofc.edu"><img src="http://cofc.edu/images/cofc-logo-2014d.png" height="50" align="right" hspace="10px"> </a>
+<a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" align="right" hspace="10px"> </a>
 <h1>
 <a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h1>
 
@@ -52,25 +53,21 @@
 </ul>
 
 <h1>
-<a id="Introduction" class="anchor" href="#Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h1>
+<a id="Results" class="anchor" href="#Results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results</h1>
 
 <h2>
-<a id="Approach and methodology" class="anchor" href="#approach-and-methodology" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approach and methodology</h2>
+<a id="Introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
 <p align="justify">
-<a href="http://www.cofc.edu"><img src="http://freyja.cs.cofc.edu/cofc.sepng" height="50" align="right" hspace="10px"> </a>
-Introduction to the use of computer based tools for the analysis of large data sets for the purpose of knowledge discovery. Students will learn to understand the Data Science process and the difference between deductive hypothesis-driven and inductive data-driven modeling. Students will have hands-on experience with various on-line analytical processing and data mining software and complete a project using real data.
+The understanding of one’s customer base is an important aspect of any successful marketing strategy. The wealth of user generated content in the age of web 2.0 has companies across the globe eager to make sense of the data associated with it. This has led to an increased awareness of the power of social networks for expressing opinions about products and services.  In the financial field, social sensors can provide valuable information that complement other sources of information used in fundamental analysis.  In addition, recent research has shown that sentiment expressed on sites such as Facebook and Twitter can be applied to predict temperament changes in customer base. Using the dataset of content provided to us regarding four popular US banks from Facebook and Twitter users, our group was able to map out the most frequently used financial topics, their root causes, and see which topics are across the industry or reserved for a particular bank.
 </p>
 
 <h2>
-<a id="our-plan" class="anchor" href="#our-plan" aria-hidden="true"><span class="octicon octicon-link"></span></a>Our plan</h2>
+<a id="approach-and-methodology" class="anchor" href="#pproach-and-methodology
+" aria-hidden="true"><span class="octicon octicon-link"></span></a>Approach and Methodology
+</h2>
 
-<p>The plan this semester is to work through the analysis of real world datasets provided by the data science website called kaggle.com and from my own personal research. The class will be heavily structured around these projects. In fact, there will be only two examinations (1 midterm and 1 final). These will be on the theory of data science and the algorithms covered throughout class. The most important component of the course will be the practical experience gained as a data scientist, and this will be built upon by exploring:</p>
-
-<p>Targeted data science lessons on concepts discussed in class. The topics will vary from week to week. They are designed to build up your skills to accomplish the next two tasks.
-Predicting the survival rate on the titanic (<a href="https://www.kaggle.com/c/titanic-gettingStarted">https://www.kaggle.com/c/titanic-gettingStarted</a>). This is the first data science competition that we will do as a class. As we progress through the class, there will be a number of assignments focused on this prediction task.
-Bioinformatics: Next-generation genomics data analysis
-Each week will have a consistent schedule. The first class will be traditional lecture style with a heavy emphasis on interactive discussion, where I will go over the theory behind the algorithms and concepts. The second class will be mostly lab style. My goal is to be your guide as you gain experience being a data scientist. Though this time will also be used to teach you the R programming language as well. It is during this second class and out of the classroom that you will gain practical experience as a data scientist. If you have laptops, please bring them to the second class of each week.</p>
+<p>Our approach was to use natural language processing and sentiment analysis in R to find insight as to how customers viewed the institution in the content generated. In observing the provided dataset by Wells Fargo, we noticed that we first needed to clean the data by removing ASCII characters, white space, and modifiers in order to sift through the data using Natural Language Processing (NLP). The most important aspects of this step are data normalization and data cleansing. Data normalization makes sure that the data acquired from each source will be able to match with other sources. Data cleansing deals with issues such as typos to ensure completeness of input (e.g., for social data) and to ensure that the data is trustworthy. Determining quality for unstructured data is a science that is still evolving and can be time-consuming. By using the Text Mining package in R, we were able to accomplish this. Next we analyzed the data using a Sentiment Analysis to gauge the positive and negative posts posted on both Facebook and Twitter. This was then separated by each bank so that they could be compared to each other. We moved from a data frame and then changed the data into a document term matrix through a corpus to achieve the “clean” data in order to process it. </p>
 
 <h2>
 <a id="course-details" class="anchor" href="#course-details" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Details</h2>
