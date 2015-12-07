@@ -76,116 +76,15 @@ The understanding of one’s customer base is an important aspect of any success
 <p>When discussing “social conversation drivers,” it is understood that the term refers to a generalization of the population. Therefore, it makes sense to condense the data into something representing a similar generalization.  In the given data set, dataset.txt, there are approximately 160 words which are observed with a frequency greater than 2000 times.  Eliminating obviously useless entries like; the year, any variables introduced to obscure data (e.g. twit_hndl), and obvious meta-tags (e.g. dirmsg, dlvr, https, respname); we are left with a list of commonly used terms by users when creating internet posts about financial institutions. While only considering the most commonly used words reduces the scope to include substantially less posts and minimizes the overall field of view, it allows for elimination of words considered to be outliers and/or irrelevant words. Additionally, if an overwhelming supposition can be observed; the scope can be broadened to, generally, include a greater number of entries from the supplied data set. Listing the notable entries from the list of the most commonly used words and drawing some initial conclusion may lead to some insight about the data set. The words found in dataset.txt with a frequency greater than 2000 times are found in Figure 1.</p>
 <img src="http://s8.postimg.org/3uvsv1qt1/Figure_1.png" alt="Figure 1" align="middle" height=250>
 
-<h3>
-<a id="contact-information" class="anchor" href="#contact-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact Information</h3>
-
-<p>Professor: Dr. Paul Anderson
-Office: 313 Harbor Walk East
-Office Hours: My door is always open. Even if it isn't, please knock. I always love to hear from students. I have a little sign that I try to keep up in the window to show when I am in the office. Tuesday and Thursday from 2:00 - 3:30 PM are my official hours.
-E-mail: <a href="mailto:andersonpe2@cofc.edu">andersonpe2@cofc.edu</a>
-Office Phone: 953-8151
-Facebook: <a href="mailto:andersonpe2@cofc.edu">andersonpe2@cofc.edu</a>
-Facebook group: <a href="https://www.facebook.com/groups/1689269657959552/">https://www.facebook.com/groups/1689269657959552/</a></p>
-
-<h3>
-<a id="course-times" class="anchor" href="#course-times" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Times</h3>
-
-<p>Section 01 - TR 09:55 am-11:10 am in HWEA 334</p>
-
-<p>Section 02 - TR 03:35 pm-04:50 pm in HWEA 300</p>
-
-<h3>
-<a id="course-learning-outcomes" class="anchor" href="#course-learning-outcomes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course (learning) outcomes</h3>
-
-<p>To gain an overview the field of knowledge discovery
-To be able to distinguish and translate between data, information, and knowledge
-To learn how to store, query, aggregate data in databases
-To be able to distinguish problems based on computability
-To learn how to implement distributed computing and storage
-To apply algorithms for inductive and deductive reasoning
-To learn introductory and state-of-the-art data mining algorithms
-To apply data mining, statistical inference, and machine learning algorithms to a variety of datasets, including text, image, biological, and health
-To apply information filtering on real world datasets
-To apply information validation on real world datasets
-To apply artificial intelligence concepts to real world datasets
-To understand the social, ethical, and legal issues of informatics and data science</p>
-
-<h3>
-<a id="grading-policy" class="anchor" href="#grading-policy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Grading Policy</h3>
-
-<p>Midterm - 15%
-Final Exam - 15%
-Homework - 10%
-Programming Assignments and Final Project - 60%
-Grading Scale: A: 90-100; B: 80-89; C: 70-79; D: 65-69; F: &lt;65. Plusses and minuses will be used at the discretion of the instructor.</p>
-
-<p>Grading Guidelines: Submitted work requires Analysis, Evaluation, and Creation of ideas, concepts, and materials into various deliverables (e.g., see revised Bloom's Taxonomy and reference below).</p>
-
-<p>The grade of A is for work that involves high-quality achievement in all three Bloom areas.
-The grade of B is for work that involves high-quality achievement in at least two Bloom areas, and medium-level achievement in the other.
-The grade of C is for work that involves high-quality achievement in at least one Bloom area, and medium-level achievement in the others.
-The grade of F is for work that does not meet above criteria.
-Reference: Errol Thompson, Andrew Luxton-Reilly, Jacqueline L. Whalley, Minjie Hu, and Phil Robbins. 2008. Bloom's taxonomy for CS assessment. In Proceedings of the tenth conference on Australasian computing education - Volume 78 (ACE '08), Simon Hamilton and Margaret Hamilton (Eds.), Vol. 78. Australian Computer Society, Inc., Darlinghurst, Australia, Australia, 155-161.</p>
-
-<h3>
-<a id="homework-policy" class="anchor" href="#homework-policy" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homework Policy</h3>
-
-<p>Written homework will placed under my office door by 5 PM on the due date. No late homework will be accepted. Cheating/sharing will result in a zero on the assignment and a report to the judicial board.</p>
-
-<h3>
-<a id="programming-assignments" class="anchor" href="#programming-assignments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Programming Assignments</h3>
-
-<p>Programming assignments will be submitted through the Learn2Mine environment. There will be a combination of in-class lab assignments, and out of programming assignments.</p>
-
-<h3>
-<a id="honor-code" class="anchor" href="#honor-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Honor Code</h3>
-
-<p>You must do your work alone (or with your teammates, for group assignments).
-You must identify your sources of material and inspiration. It is a violation of the honor code to present someone else's work or ideas as your own.
-In any course deliverable, you must always identify the person(s) that helped you (directly or indirectly), if any, and explain their contribution to your work.
-Also see the College of Charleston Student Handbook, especially sections on The Honor Code (p. 11), and Student Code of Conduct (p. 12). There is other useful information there.
-Classroom Policies</p>
-
-<p>You are expected to take good notes during class.
-You are expected to participate in class with questions and invited discussion.
-You are expected to attend all classes. The grade 'WA' will be given for excessive (&gt;= 3) absences. If you miss class, you must get an absence memo from the Associate Dean of Students Office; also, you are responsible for announcements made in class, assignment due dates, etc.
-You should turn off all electronic devices (e.g., cell phones, pagers, etc.).
-In summary, you should contribute positively to the classroom learning experience, and respect your classmates right to learn (see College of Charleston Student Handbook, section on Classroom Code of Conduct (p. 58)).
-Late Policy</p>
-
-<p>No late days will be allowed without an excuse. Falling behind on assignments will make it difficult to achieve the learning outcomes of this course.</p>
-
-<h3>
-<a id="facebook-group" class="anchor" href="#facebook-group" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facebook Group</h3>
-
-<p>You are required to join the Facebook Group. The majority of class related discussions will be carried out in this forum.</p>
-
-<p><a href="https://www.facebook.com/groups/1689269657959552/">Join the Facebook group here</a></p>
-
 <h2>
-<a id="midterm" class="anchor" href="#midterm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Midterm</h2>
+<a id="examples-of-topic-and-substance" class="anchor" href="#examples-of-topic-and-substance" aria-hidden="true"><span class="octicon octicon-link"></span></a> Examples of Topic and Substance</h2>
 
-<p>The is scheduled for Tuesday, October 27th</p>
+<p>A variety of topics were discussed within the dataset. After running a word association function for the individual banks what resulted were terms relating to both finance and some that seemed specific to the individual banks. For instance the top four relationships, at 19 percent, associated with BankA were “affecting”, “begging”, “ecstatic”, and “occasions” without the document being stemmed. When the document had been stemmed the top financial terms for BankA were “check” at 6 percent and “account”, “bank”, and “money” at 5 percent. For BankB, with the document stemmed, we see that there is a relationship with the financial terms “money” at 11 percent, “pay” at 9 percent, and “check” at 5 percent. BankC’s top financial term associations are “rate” at 10 percent and “credit” at 7 percent. The terms for BankD were found to be “asset” and “grant” at 20 percent and “wealth” at 18 percent. We also found that the most associated words with each bank in order to see what popular topics were being discussed with each one. This was insightful as it helped us to compare popular topics with each bank.</p>
+<p>When examining BankA in particular, we created three separate document-feature-matrices (DFM) for n-gram modeling. The code is also set up for the user to choose which of the four banks to analyze. The first matrix is unstemmed, and looks for 2 or 3 word terms that are separated by no more than one other word. The second matrix removes words found in “myStopWords” and looks for only two terms separated by no more than two other words. Finally, the third matrix is set up to determine sentiment and substance in the dataset. It is also stemmed and removes all words except the ones on our AFINN list of terms. This process more efficiently determines sentiment analysis by having every word in the DFM mapped to the AFINN list without having to process NULL returns.
+Figure 2 shows some examples of topics discovered, the substance attribute, and corresponding tweet.
+Example Close Account is from the first matrix is from the tweet “twit_hndl_BankB_help Name worst customer service..... i am ready to close account” delivers the topic of Poor Customer Service with a substance tag of Customer Attrition. Example Overdraft Fee was determined from the second matrix with the Facebook post “BankB just charged me an extended overdraft fee.... oh well im just gonna throw that in their face when i close my bank account tomorrow”. The post delivered the topic of Banking Fees or Penalties, with a substance tag of Customer Attrition as well. Examples Please Stop and Planned Parenthood were derived by the sentiment analysis in matrix three. The post from Please Stop is a reaction to a commercial aired by BankA supporting same-sex marriage, while Planned Parenthood is reactionary to BankA’s financial support of the organization following the release of discredited videos against the organization during the summer of 2015. Both posts highlight the topic of Socio-Political Affiliation by the user with again the substance tag of Customer Attrition or possible Boycott.</p>
+<img src="http://s3.postimg.org/euylgsacz/Substance_Tags.png" alt="Figure 1" align="middle" height=600>
 
-<h2>
-<a id="final" class="anchor" href="#final" aria-hidden="true"><span class="octicon octicon-link"></span></a>Final</h2>
-
-<p>The final exam will be take home.</p>
-
-<p>The final exam time will be used for final project presentations.</p>
-
-<p>Section 01 - Saturday, December 12th from 8 - 11 AM</p>
-
-<p>Section 02 - Thursday, December 10th from 4 - 7 PM</p>
-
-<h1>
-<a id="anderson-data-science-research-lab" class="anchor" href="#anderson-data-science-research-lab" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://anderson-lab.github.io/">Anderson Data Science Research Lab</a>
-</h1>
-
-<p align="justify">
-<a href="http://anderson-lab.github.io/"><img src="http://freyja.cs.cofc.edu/Paul-labs-logo.png" alt="Data Science Research Lab" height="100" align="right" hspace="10px"></a>
-The Anderson Data Science Research Lab specializes in applying data mining, machine learning, and artificial intelligence to the fields of bioinformatics, genomics, and metabolomics. We develop algorithms and software to tackle some of the most challenging and interesting data intensive problems in the life sciences. Our research interests include data science, big data, pattern analysis in high-dimensionality data sets, evolutionary computation and optimization, machine learning, computational genomics, cloud computing, computational metabolomics, and eScience. We currently have multidisciplinary projects underway in metabolomics, human cognition, toxicology, marine biology, medical genomics, biomedical informatics, and marine genomics.
-</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/Anderson-Lab">Anderson-Lab</a></p>
