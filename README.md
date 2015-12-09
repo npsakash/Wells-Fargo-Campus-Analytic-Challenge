@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head></head>
 <body>
@@ -8,9 +9,12 @@
 <a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" float="right" hspace="10px"></a>
 </div>
 
-<div class="nav">
-      Source Materials
-      </div>
+<ul>
+  <li><a class="active" href="#source-material">Source Material</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
       
 <div id="section">
       <h3>
