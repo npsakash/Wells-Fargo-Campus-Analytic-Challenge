@@ -1,37 +1,56 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Wells Fargo Campus Analytic Challenge by npsakash</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Wells Fargo Campus Analytic Challenge by npsakash</title>
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Wells Fargo Campus Analytic Challenge</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge" class="btn">View on GitHub</a>
-      <a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <header>
+      <div class="inner">
+        <h1>Wells Fargo Campus Analytic Challenge</h1>
+        <h2></h2>
+        <a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-    <section class="main-content">
-      <p>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>&lt;!DOCTYPE html&gt;
+
 </p>
-<a href="http://www.cofc.edu"><img src="http://s8.postimg.org/thw7cx0xd/Cof_C_Logo.png" height="50" align="left" hspace="10px"> </a>
-<a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" align="right" hspace="10px"> </a>
 
-<h1>
-<a id="wells-fargo-campus-analytic-challenge" class="anchor" href="#wells-fargo-campus-analytic-challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a><a id="Wells-Fargo-Campus-Analytic-Challenge" href="Wells-Fargo-Campus-Analytic-Challenge"></a>Wells Fargo Campus Analytic Challenge</h1>
 
-<p></p>
+<div id="header">
 
-<p></p>
+<a href="http://www.cofc.edu"><img src="http://s8.postimg.org/thw7cx0xd/Cof_C_Logo.png" height="50" hspace="10px"></a>
+<h2>
+<a id="wells-fargo-campus-analytic-challenge" class="anchor" href="#wells-fargo-campus-analytic-challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a><a id="Wells-Fargo-Campus-Analytic-Challenge" href="Wells-Fargo-Campus-Analytic-Challenge"></a>Wells Fargo Campus Analytic Challenge</h2>
+<a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" hspace="10px"></a>
+</div>
 
-<h3>
+<ul>
+  <li><a href="#source-material">Source Material</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+      
+
+<div id="section">
+      <h3>
 <a id="source-material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>
 <a id="Source Material" href="#source-material"></a>Source Material</h3>
 <ul>
@@ -81,7 +100,6 @@ Deliverable E - Create a narrative of insights supported by the quantitative res
 
 <p>     The last stages of the pipeline is in charge of the sentiment and emotion analysis as well as a word frequency analysis. In order to quantitatively analyze qualitative things like emotion or sentiment, simple language rules, like inverters (e.g. not) are used in conjunction with  mathematical procedures, like using the average value of words found in a facebook post that have been previously assigned a quantitative value. The emotional quality of a post can be determined from bigrams and trigrams (the connection between doublets and triplets) and synonymous words (ala WordNet). This research led our team to the decision to use visual representations of our results as output from our code.  Unlike tables and lists, using visual representations like word-clouds and histograms allows for the data to be absorbed at a glance. The initial analysis of word frequency allowed us to determine some topics that are commonly found on social media regarding with regard to financial institutions.  In the data set provided, our initial analysis found approximately 160 words which were observed with a frequency greater than 2000 times.  After eliminating obviously useless entries, like the year, obscured data (e.g. twit_hndl), and meta-tags (e.g. https) we were left with a list of commonly used terms that we would use to generally verify our results.
 </p>
-
 <p></p>
 
 <h3>
@@ -89,13 +107,11 @@ Deliverable E - Create a narrative of insights supported by the quantitative res
 <a id="the-dataset-and-its-relationship-to-social-conversation-drivers" href="#the-dataset-and-its-relationship-to-social-conversation-drivers"></a>The Dataset and Its Relationship to Social Conversation Drivers</h3>
 
 <p>     Social conversation drivers is a term that generalizes the conversation of the population. Therefore, it made sense for our team to condense the data into something representing a similar generalization.  While considering only commonly used words sacrifices some precision, it allows for simplistic elimination of terms considered to be outliers. Additionally, the scope could later be broadened to include a greater number of entries from the supplied dataset. Upon finding words that were observed more than 2000 times (Figure 2), we were able to draw an initial conclusion that allowed our team to narrow the scope of our code.</p>
-
-<p><img src="http://s20.postimg.org/68np5zi5p/Figure_2.png" alt="Figure 2" align="center" height="350"></p>
+<img src="http://s20.postimg.org/68np5zi5p/Figure_2.png" alt="Figure 2" align="center" height="350">
 
 <h3>
 <a id="-documented-code" class="anchor" href="#-documented-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>
 <a id="documented-code" href="#documented-code"></a> Documented Code</h3>
-
 <p>The code generated by our team is far too large to include on one page. There is a link on the bottom, however, below are some of the more important or interesting code segments from our team code:
 <img src="http://s20.postimg.org/u26yaxm0d/Assorted_Code.png" alt="Assorted Code" height="900">
 </p>
@@ -105,37 +121,43 @@ Deliverable E - Create a narrative of insights supported by the quantitative res
 <a id="examples-of-topic-and-substance" href="#examples-of-topic-and-substance"></a> Examples of Topic and Substance</h3>
 
 <p>     A variety of topics were discussed within the dataset. After running a word association function for the individual banks what resulted were terms relating to both finance and some that seemed specific to the individual banks. For instance the top four relationships, at 19 percent, associated with BankA were “affecting”, “begging”, “ecstatic”, and “occasions” without the document being stemmed. When the document had been stemmed the top financial terms for BankA were “check” at 6 percent and “account”, “bank”, and “money” at 5 percent. For BankB, with the document stemmed, we see that there is a relationship with the financial terms “money” at 11 percent, “pay” at 9 percent, and “check” at 5 percent. BankC’s top financial term associations are “rate” at 10 percent and “credit” at 7 percent. The terms for BankD were found to be “asset” and “grant” at 20 percent and “wealth” at 18 percent. We also found that the most associated words with each bank in order to see what popular topics were being discussed with each one. This was insightful as it helped us to compare popular topics with each bank.</p>
-
 <p>When examining BankA in particular, we created three separate document-feature-matrices (DFM) for n-gram modeling. The code is also set up for the user to choose which of the four banks to analyze. The first matrix is unstemmed, and looks for 2 or 3 word terms that are separated by no more than one other word. The second matrix removes words found in “myStopWords” and looks for only two terms separated by no more than two other words. Finally, the third matrix is set up to determine sentiment and substance in the dataset. It is also stemmed and removes all words except the ones on our AFINN list of terms. This process more efficiently determines sentiment analysis by having every word in the DFM mapped to the AFINN list without having to process NULL returns.
 Figure 2 shows some examples of topics discovered, the substance attribute, and corresponding tweet.
 Example Close Account is from the first matrix is from the tweet “twit_hndl_BankB_help Name worst customer service..... i am ready to close account” delivers the topic of Poor Customer Service with a substance tag of Customer Attrition. Example Overdraft Fee was determined from the second matrix with the Facebook post “BankB just charged me an extended overdraft fee.... oh well im just gonna throw that in their face when i close my bank account tomorrow”. The post delivered the topic of Banking Fees or Penalties, with a substance tag of Customer Attrition as well. Examples Please Stop and Planned Parenthood were derived by the sentiment analysis in matrix three. The post from Please Stop is a reaction to a commercial aired by BankA supporting same-sex marriage, while Planned Parenthood is reactionary to BankA’s financial support of the organization following the release of discredited videos against the organization during the summer of 2015. Both posts highlight the topic of Socio-Political Affiliation by the user with again the substance tag of Customer Attrition or possible Boycott.</p>
-
-<p><img src="http://s20.postimg.org/6mp15l299/Substance_Tags.png" alt="Figure 3" align="middle" height="900"></p>
+<img src="http://s20.postimg.org/6mp15l299/Substance_Tags.png" alt="Figure 3" align="middle" height="900">
 
 <h3>
 <a id="-graphical-insights" class="anchor" href="#-graphical-insights" aria-hidden="true"><span class="octicon octicon-link"></span></a>
 <a id="graphical-insights" href="#graphical-insights"></a> Graphical Insights</h3>
-
 <p><img src="http://s20.postimg.org/k65vbag8d/Social_Media_Mentions_Frequency_and_Sentiment_In.png" alt="Figure 4" align="right" width="450">Below is a collection of graphs and charts detailing insight gained from the sentiment analysis and n-gram modeling. Figure 4 shows the overall frequency and ratio of positive or negative sentiment across the four banks. From the dataset provided it appears BankC and BankD showed the highest frequency of sentiment terms used in tweets or posts. The largest ratio between positive and negative sentiment however occurs for BankA, with negative occurrences more than double those of positive. Favorable opinion was found to be most frequent with BankB and BankC, while BankD received an almost equal score.</p>
-
 <p><img src="http://s20.postimg.org/5od9h1eb1/Comparing_Relative_Volume_and_Substance_of_Comme.png" alt="Figure 5" align="left" width="450">Figure 5 provides a more detailed picture of user sentiment across the four banks by scoring the intensity within the opinions found within the content, such as comparative or superlative modifiers. The scores range from -5.0 being the lowest set of adjectives to 5.0 being the highest. Though BankA may have had a greater amount of negative sentiment, this graph shows that the posts are lacking in the extreme cases of negative sentiment. So customers for BankA may just be reacting as expected to an unpleasant experience, and not necessarily displaying hatred for the institution but mere annoyance. The favorable BankB however shows the largest spread of extreme negative sentiment. These customers display a much higher unfavorable emotion against the bank when they feel wronged or betrayed. BankC shows a pretty balanced spread between the scores, while BankD may have customers who view the bank with more annoyance than contempt.</p>
-
 <p>             The following are word clouds compiled from our three n-gram models. These illustrate the relative volume and substance of comments within the dataset across the four banks. <img src="http://s20.postimg.org/jw2y5oqzx/Figure_6.png" alt="Figure 6" align="right" width="350">Figure 6 shows the frequency of bigrams and trigrams found. The largest and most prevalent being “bad customer service” in orange, followed by the second largest set of frequencies in red. This second set is primarily made up of bi-grams. The prevalence of “bad customer service” or “worst customer service” hints that the majority of people taking their time to post about a certain bank are reacting to an unpleasant experience and not merely bad-mouthing the bank without cause.</p> 
 
 <p><img src="http://s20.postimg.org/sfmc3fzcd/Figure_7.png" alt="Figure 7" align="left" width="350">Figure 7 shows the unigrams displayed by our code. “Account” is fittingly the highest recorded single term, with a measurement of over 5000 occurrences. “Money”, “time”, “thank”, “don’t”, “help”, and “check” are the next highest frequency terms. This leads us to believe that when customers post or tweet about a certain bank there is a financial cause at its root, however terms such as “thank” or “time” would require a corresponding modifier to determine the meaning behind their use.</p>
 
 <p><img src="http://s20.postimg.org/gf0w2prxp/Figure_8.png" alt="Figure 8" align="right" width="350">Our final world cloud in Figure 8 is a heat map of the bi-grams created. Financial terms are again the most prevalent, with posts ranging from “worst service” and “steal money” to “thank helping” and “please help”. Only an exterior level of meaning can be ascertained by these examples, however they show that customers are most likely to post about a certain bank when feeling either satisfied or unhappy with their experience, or if they are in need of the bank’s assistance.</p>
+</div>
 
 <p>
 </p>
+        </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge">Wells Fargo Campus Analytic Challenge</a> is maintained by <a href="https://github.com/npsakash">npsakash</a>.</span>
+        <aside id="sidebar">
+          <a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+          <p class="repo-owner"><a href="https://github.com/npsakash/Wells-Fargo-Campus-Analytic-Challenge"></a> is maintained by <a href="https://github.com/npsakash">npsakash</a>.</p>
 
-    </section>
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
 
   
   </body>
