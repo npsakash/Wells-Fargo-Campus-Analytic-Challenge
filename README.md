@@ -1,13 +1,19 @@
 <html>
-<head>
+<head></head>
+<body>
+<div id="header">
 
 <a href="http://www.cofc.edu"><img src="http://s8.postimg.org/thw7cx0xd/Cof_C_Logo.png" height="50" float="left" hspace="10px"></a>
 <h2><a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h2>
-<a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" float="right" hspace="10px"> </a>
-</head>
-<hr>
-<body>
-<h3>
+<a href="https://www.mindsumo.com/wells-fargo"><img src="https://d18qs7yq39787j.cloudfront.net/uploads/company/1036/wellsfargo.jpg" height="50" float="right" hspace="10px"></a>
+</div>
+
+<div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+      <h3>
 <a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h3>
 <ul>
 <li><a href="https://www.mindsumo.com/contests/wells-fargo">Mindsumo Competition Page</a></li>
@@ -85,6 +91,7 @@ Example Close Account is from the first matrix is from the tweet “twit_hndl_Ba
 <p><img src="http://s20.postimg.org/sfmc3fzcd/Figure_7.png" alt="Figure 7" align="left"width=350>Figure 7 shows the unigrams displayed by our code. “Account” is fittingly the highest recorded single term, with a measurement of over 5000 occurrences. “Money”, “time”, “thank”, “don’t”, “help”, and “check” are the next highest frequency terms. This leads us to believe that when customers post or tweet about a certain bank there is a financial cause at its root, however terms such as “thank” or “time” would require a corresponding modifier to determine the meaning behind their use.</p>
 
 <p><img src="http://s20.postimg.org/gf0w2prxp/Figure_8.png" alt="Figure 8" align="right"width=350>Our final world cloud in Figure 8 is a heat map of the bi-grams created. Financial terms are again the most prevalent, with posts ranging from “worst service” and “steal money” to “thank helping” and “please help”. Only an exterior level of meaning can be ascertained by these examples, however they show that customers are most likely to post about a certain bank when feeling either satisfied or unhappy with their experience, or if they are in need of the bank’s assistance.</p>
-
+</section>
+</div>
 </body>
 </html>
