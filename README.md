@@ -10,24 +10,13 @@
 <h2><a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h2>
 </div>
 <div id="nav"
-<style>
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-</style>
 <ul>
   <li><a class="active" href="#source-material">Source Material</a></li>
   <li><a class="active" href="#deliverables">Deliverables</a></li>
   <li><a class="active" href="#introduction">Introduction</a></li>
   <li><a class="active" href="#approach-and-methodology">Approach and Methodology</a></li>
   <li><a class="active" href="#the-dataset-and-its-relationship-to-social-conversation-drivers">Relationships</a></li>
+  <li><a class="active" href="#documented-code">Documented Code</a></li>
   <li><a class="active" href="#examples-of-topic-and-substance">Topics and Substance</a></li>
   <li><a class="active" href="#graphical-insights">Graphical Insights</a></li>
   <li><a class="active" href="#further-insights">Further Insight</a></li>
@@ -107,11 +96,11 @@ Example Close Account is from the first matrix is from the tweet “twit_hndl_Ba
 <a id="graphical-insights" class="anchor" href="#graphical-insights" aria-hidden="true"><span class="octicon octicon-link"></span></a> Graphical Insights</h3>
 <p><img src="http://s20.postimg.org/k65vbag8d/Social_Media_Mentions_Frequency_and_Sentiment_In.png" alt="Figure 4" align="right" width=450>Below is a collection of graphs and charts detailing insight gained from the sentiment analysis and n-gram modeling. Figure 4 shows the overall frequency and ratio of positive or negative sentiment across the four banks. From the dataset provided it appears BankC and BankD showed the highest frequency of sentiment terms used in tweets or posts. The largest ratio between positive and negative sentiment however occurs for BankA, with negative occurrences more than double those of positive. Favorable opinion was found to be most frequent with BankB and BankC, while BankD received an almost equal score.</p>
 <p><img src="http://s20.postimg.org/5od9h1eb1/Comparing_Relative_Volume_and_Substance_of_Comme.png" alt="Figure 5" align="left"width=450>Figure 5 provides a more detailed picture of user sentiment across the four banks by scoring the intensity within the opinions found within the content, such as comparative or superlative modifiers. The scores range from -5.0 being the lowest set of adjectives to 5.0 being the highest. Though BankA may have had a greater amount of negative sentiment, this graph shows that the posts are lacking in the extreme cases of negative sentiment. So customers for BankA may just be reacting as expected to an unpleasant experience, and not necessarily displaying hatred for the institution but mere annoyance. The favorable BankB however shows the largest spread of extreme negative sentiment. These customers display a much higher unfavorable emotion against the bank when they feel wronged or betrayed. BankC shows a pretty balanced spread between the scores, while BankD may have customers who view the bank with more annoyance than contempt.</p>
-<p>           	The following are word clouds compiled from our three n-gram models. These illustrate the relative volume and substance of comments within the dataset across the four banks. <img src="http://s20.postimg.org/jw2y5oqzx/Figure_6.png" alt="Figure 6" align="right"width=350>Figure 6 shows the frequency of bigrams and trigrams found. The largest and most prevalent being “bad customer service” in orange, followed by the second largest set of frequencies in red. This second set is primarily made up of bi-grams. The prevalence of “bad customer service” or “worst customer service” hints that the majority of people taking their time to post about a certain bank are reacting to an unpleasant experience and not merely bad-mouthing the bank without cause.</p> 
+<p>           	The following are word clouds compiled from our three n-gram models. These illustrate the relative volume and substance of comments within the dataset across the four banks. <img src="http://s20.postimg.org/jw2y5oqzx/Figure_6.png" alt="Figure 6" align="right"width=300>Figure 6 shows the frequency of bigrams and trigrams found. The largest and most prevalent being “bad customer service” in orange, followed by the second largest set of frequencies in red. This second set is primarily made up of bi-grams. The prevalence of “bad customer service” or “worst customer service” hints that the majority of people taking their time to post about a certain bank are reacting to an unpleasant experience and not merely bad-mouthing the bank without cause.</p> 
 
-<p><img src="http://s20.postimg.org/sfmc3fzcd/Figure_7.png" alt="Figure 7" align="left"width=350>Figure 7 shows the unigrams displayed by our code. “Account” is fittingly the highest recorded single term, with a measurement of over 5000 occurrences. “Money”, “time”, “thank”, “don’t”, “help”, and “check” are the next highest frequency terms. This leads us to believe that when customers post or tweet about a certain bank there is a financial cause at its root, however terms such as “thank” or “time” would require a corresponding modifier to determine the meaning behind their use.</p>
+<p><img src="http://s20.postimg.org/sfmc3fzcd/Figure_7.png" alt="Figure 7" align="left"width=300>Figure 7 shows the unigrams displayed by our code. “Account” is fittingly the highest recorded single term, with a measurement of over 5000 occurrences. “Money”, “time”, “thank”, “don’t”, “help”, and “check” are the next highest frequency terms. This leads us to believe that when customers post or tweet about a certain bank there is a financial cause at its root, however terms such as “thank” or “time” would require a corresponding modifier to determine the meaning behind their use.</p>
 
-<p><img src="http://s20.postimg.org/gf0w2prxp/Figure_8.png" alt="Figure 8" align="right"width=350>Our final world cloud in Figure 8 is a heat map of the bi-grams created. Financial terms are again the most prevalent, with posts ranging from “worst service” and “steal money” to “thank helping” and “please help”. Only an exterior level of meaning can be ascertained by these examples, however they show that customers are most likely to post about a certain bank when feeling either satisfied or unhappy with their experience, or if they are in need of the bank’s assistance.</p>
+<p><img src="http://s20.postimg.org/gf0w2prxp/Figure_8.png" alt="Figure 8" align="right"width=300>Our final world cloud in Figure 8 is a heat map of the bi-grams created. Financial terms are again the most prevalent, with posts ranging from “worst service” and “steal money” to “thank helping” and “please help”. Only an exterior level of meaning can be ascertained by these examples, however they show that customers are most likely to post about a certain bank when feeling either satisfied or unhappy with their experience, or if they are in need of the bank’s assistance.</p>
 
 <h3>
 <a id="further-insights" class="anchor" href="#further-insights" aria-hidden="true"><span class="octicon octicon-link"></span></a> Further Insights</h3>
