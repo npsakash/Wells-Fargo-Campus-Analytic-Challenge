@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+html>
 <head></head>
 <body>
 <div id="header">
@@ -10,13 +9,18 @@
 
 <h2><a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h2>
 </div>
-
+<div id="nav"
 <ul>
   <li><a class="active" href="#source-material">Source Material</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a class="active" href="#deliverables">Deliverables</a></li>
+  <li><a class="active" href="#introduction">Introduction</a></li>
+  <li><a class="active" href="#approach-and-methodology">Approach and Methodology</a></li>
+  <li><a class="active" href="#the-dataset-and-its-relationship-to-social-conversation-driversl">Relationships</a></li>
+  <li><a class="active" href="#examples-of-topic-and-substance">Topics and Substance</a></li>
+  <li><a class="active" href="#graphical-insights">Graphical Insights</a></li>
+  <li><a class="active" href="#further-insight">Further Insight</a></li>
 </ul>
+</div>
       
 <div id="section">
       <h3>
@@ -50,7 +54,7 @@ Deliverable E - Create a narrative of insights supported by the quantitative res
 <a id="Results" class="anchor" href="#Results" aria-hidden="true"><span class="octicon octicon-link"></span></a>Results</h2>
 
 <h3>
-<a id="Introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h3>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h3>
 
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The internet has given rise to many innovations. A lot of the things that would have seemed impossible just five years ago, we take for granted today.  The greater accessibility through wireless technology and the miniaturization of portable devices has made staying connected just part of the day. The wealth of social media sites that allow people to share their experiences and opinions has also made nearly everyone easily accessible.  And there are probably few people who understand the implications of that better than marketers.  It is one thing to potentially have access to customers at all times, but being privy to their personal life is another thing entirely.  The proliferation of devices and software that allow users to generate content and seamlessly post it to their social media accounts has led to a veritable deluge of data around the net.  Every company around the globe that has a product to market, wants to leverage the ever-present, easily-accessible social media data. The Holy Grail in marketing the ability to consistently acquire insight of customer opinions or being able to spot trends in order to capitalize on new products and services. Nowhere is this truer than in the world of finance. Banking and finance are fundamentally speculative endeavors. Observing trends and paying attention to social cues helps bolster information acquired from traditional sources. Algorithms that are tuned to detect sentiment on sites like Facebook and Twitter have predicted temperament changes in customer base and subsequent spending habits. Using the provided dataset of social media posts our group was able to glean recently relevant financial topics, their root causes, and see which topics are across the industry or reserved for a particular bank.
@@ -80,7 +84,7 @@ Deliverable E - Create a narrative of insights supported by the quantitative res
 </p>
 
 <h3>
-<a id="examples-of-topic-and-substance" class="anchor" href="#examples-of-topic-and-substance" aria-hidden="true"><span class="octicon octicon-link"></span></a> Examples of Topic and Substance</h3>
+<a id="examples-of-topic-and-substance" class="anchor" href="#examples-of-topic-and-substance" aria-hidden="true"><span class="octicon octicon-link"></span></a> Examples of Topics and Substance</h3>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A variety of topics were discussed within the dataset. After running a word association function for the individual banks what resulted were terms relating to both finance and some that seemed specific to the individual banks. For instance the top four relationships, at 19 percent, associated with BankA were “affecting”, “begging”, “ecstatic”, and “occasions” without the document being stemmed. When the document had been stemmed the top financial terms for BankA were “check” at 6 percent and “account”, “bank”, and “money” at 5 percent. For BankB, with the document stemmed, we see that there is a relationship with the financial terms “money” at 11 percent, “pay” at 9 percent, and “check” at 5 percent. BankC’s top financial term associations are “rate” at 10 percent and “credit” at 7 percent. The terms for BankD were found to be “asset” and “grant” at 20 percent and “wealth” at 18 percent. We also found that the most associated words with each bank in order to see what popular topics were being discussed with each one. This was insightful as it helped us to compare popular topics with each bank.</p>
 <p>When examining BankA in particular, we created three separate document-feature-matrices (DFM) for n-gram modeling. The code is also set up for the user to choose which of the four banks to analyze. The first matrix is unstemmed, and looks for 2 or 3 word terms that are separated by no more than one other word. The second matrix removes words found in “myStopWords” and looks for only two terms separated by no more than two other words. Finally, the third matrix is set up to determine sentiment and substance in the dataset. It is also stemmed and removes all words except the ones on our AFINN list of terms. This process more efficiently determines sentiment analysis by having every word in the DFM mapped to the AFINN list without having to process NULL returns.
@@ -97,6 +101,12 @@ Example Close Account is from the first matrix is from the tweet “twit_hndl_Ba
 <p><img src="http://s20.postimg.org/sfmc3fzcd/Figure_7.png" alt="Figure 7" align="left"width=350>Figure 7 shows the unigrams displayed by our code. “Account” is fittingly the highest recorded single term, with a measurement of over 5000 occurrences. “Money”, “time”, “thank”, “don’t”, “help”, and “check” are the next highest frequency terms. This leads us to believe that when customers post or tweet about a certain bank there is a financial cause at its root, however terms such as “thank” or “time” would require a corresponding modifier to determine the meaning behind their use.</p>
 
 <p><img src="http://s20.postimg.org/gf0w2prxp/Figure_8.png" alt="Figure 8" align="right"width=350>Our final world cloud in Figure 8 is a heat map of the bi-grams created. Financial terms are again the most prevalent, with posts ranging from “worst service” and “steal money” to “thank helping” and “please help”. Only an exterior level of meaning can be ascertained by these examples, however they show that customers are most likely to post about a certain bank when feeling either satisfied or unhappy with their experience, or if they are in need of the bank’s assistance.</p>
+
+<h3>
+<a id="further-insights" class="anchor" href="#further-insights" aria-hidden="true"><span class="octicon octicon-link"></span></a> Further Insights</h3>
+<p>
+</p>
+
 </div>
 </body>
 </html>
