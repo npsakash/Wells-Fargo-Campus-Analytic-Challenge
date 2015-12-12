@@ -10,15 +10,27 @@
 <h2><a id="Wells-Fargo-Campus-Analytic-Challenge" class="anchor" href="Wells-Fargo-Campus-Analytic-Challenge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wells Fargo Campus Analytic Challenge</h2>
 </div>
 <div id="nav"
+<style>
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
 <ul>
   <li><a class="active" href="#source-material">Source Material</a></li>
   <li><a class="active" href="#deliverables">Deliverables</a></li>
   <li><a class="active" href="#introduction">Introduction</a></li>
   <li><a class="active" href="#approach-and-methodology">Approach and Methodology</a></li>
-  <li><a class="active" href="#the-dataset-and-its-relationship-to-social-conversation-driversl">Relationships</a></li>
+  <li><a class="active" href="#the-dataset-and-its-relationship-to-social-conversation-drivers">Relationships</a></li>
   <li><a class="active" href="#examples-of-topic-and-substance">Topics and Substance</a></li>
   <li><a class="active" href="#graphical-insights">Graphical Insights</a></li>
-  <li><a class="active" href="#further-insight">Further Insight</a></li>
+  <li><a class="active" href="#further-insights">Further Insight</a></li>
 </ul>
 </div>
       
