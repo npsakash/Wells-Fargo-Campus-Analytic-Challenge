@@ -13,12 +13,13 @@
 <br>
 <div id="nav"
 <ul>
-  <li><a class="active" href="#source-material">Source Material</a></li>
+  <li><a class="active" href="#source-material"><u>Source Material</u></a></li>
   <li><a class="active" href="#deliverables">Deliverables</a></li>
   <li><a class="active" href="#introduction">Introduction</a></li>
   <li><a class="active" href="#approach-and-methodology">Approach and Methodology</a></li>
   <li><a class="active" href="#the-dataset-and-its-relationship-to-social-conversation-drivers">Relationships</a></li>
-  <li><a class="active" href="#documented-code">Document Code</a></li>
+  <br>
+  <li><a class="active" href="#documented-code">Documented Code</a></li>
   <li><a class="active" href="#examples-of-topic-and-substance">Topics and Substance</a></li>
   <li><a class="active" href="#graphical-insights">Graphical Insights</a></li>
   <li><a class="active" href="#further-insights">Further Insights</a></li>
