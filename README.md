@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="icon" href="http://s8.postimg.org/thw7cx0xd/Cof_C_Logo.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="http://s20.postimg.org/qhog13h61/Cof_C_Logo.gif" type="image/gif" sizes="16x16">
 </head>
 <body>
 <div id="header">
