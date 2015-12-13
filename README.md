@@ -28,12 +28,23 @@
   <br>    
 <div id="section">
       <h3>
-<h3>contributors</h3>
-<p>Neal Sakash
-  <br>
-  <img src="http://s20.postimg.org/jptfki2st/Laura_Dee_Photography_004_Portraits060.jpg" height="100" float="left" hspace="10px"></p>
+<h3>Contributors</h3>
+<table style="width:50%">
+  <tr>
+    <td>Donald Cole</td>
+    <td>Chase Hendley</td>    
+    <td>Neal Sakash</td>
+    <td>Tyler Walter</td>
+  </tr>
+  <tr>
+    <td><a href=""><img src="" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="" height="100" align="center" hspace="10px"></a></td>
+    <td><a href="http://npsakash.github.io/Wells-Fargo-Campus-Analytic-Challenge/"><img src="http://s20.postimg.org/jptfki2st/Laura_Dee_Photography_004_Portraits060.jpg" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="" height="100" align="center" hspace="10px"></a></td>
+  </tr>
+</table>  
 <br>
-<a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h3>
+<h3><a id="Source Material" class="anchor" href="#source-material" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Material</h3>
 <ul>
 <li><a href="https://www.mindsumo.com/contests/wells-fargo">Mindsumo Competition Page</a></li>
 <li><a href="https://d18qs7yq39787j.cloudfront.net/uploads/contestfile/92/4aa8575b843c-2015+Wells+Fargo+Campus+Analytic+Challenge+Metadata.pdf">Metadata.pdf</a></li>
