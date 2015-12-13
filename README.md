@@ -37,10 +37,10 @@
     <td>Tyler Walter</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/DonCole/DataScienceAnalyticsComp.git"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100" align="center" hspace="10px"></a></td>
-    <td><a href="http://pchendley.github.io/wells-fargo-analytics-competition/"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100" align="center" hspace="10px"></a></td>
+    <td><a href="http://doncole.github.io/DataScienceAnalyticsComp/"><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xla1/t31.0-8/411935_109238952586728_1711622452_o.jpg" height="100" align="center" hspace="10px"></a></td>
+    <td><a href="http://pchendley.github.io/wells-fargo-analytics-competition/"><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11173409_797664292665_1440004988091193230_n.jpg?oh=5c909a135311c0fa959524523402d845&oe=5721E379" height="100" align="center" hspace="10px"></a></td>
     <td><a href="http://npsakash.github.io/Wells-Fargo-Campus-Analytic-Challenge/"><img src="http://s20.postimg.org/jptfki2st/Laura_Dee_Photography_004_Portraits060.jpg" height="100" align="center" hspace="10px"></a></td>
-    <td><a href=""><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1555345_10202937329540214_1836364404_n.jpg?oh=2cab45e8593b270a978ae70d6bd7de31&oe=56E500E6" height="100" align="center" hspace="10px"></a></td>
   </tr>
 </table>  
 <br>
