@@ -18,7 +18,6 @@
   <li><a class="active" href="#introduction">Introduction</a></li>
   <li><a class="active" href="#approach-and-methodology">Approach and Methodology</a></li>
   <li><a class="active" href="#the-dataset-and-its-relationship-to-social-conversation-drivers">Relationships</a></li>
-  <br>
   <li><a class="active" href="#documented-code">Documented Code</a></li>
   <li><a class="active" href="#examples-of-topic-and-substance">Topics and Substance</a></li>
   <li><a class="active" href="#graphical-insights">Graphical Insights</a></li>
@@ -38,10 +37,10 @@
     <td>Tyler Walter</td>
   </tr>
   <tr>
-    <td><a href=""><img src="" height="100" align="center" hspace="10px"></a></td>
-    <td><a href=""><img src="" height="100" align="center" hspace="10px"></a></td>
+    <td><a href="https://github.com/DonCole/DataScienceAnalyticsComp.git"><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100" align="center" hspace="10px"></a></td>
     <td><a href="http://npsakash.github.io/Wells-Fargo-Campus-Analytic-Challenge/"><img src="http://s20.postimg.org/jptfki2st/Laura_Dee_Photography_004_Portraits060.jpg" height="100" align="center" hspace="10px"></a></td>
-    <td><a href=""><img src="" height="100" align="center" hspace="10px"></a></td>
+    <td><a href=""><img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" height="100" align="center" hspace="10px"></a></td>
   </tr>
 </table>  
 <br>
