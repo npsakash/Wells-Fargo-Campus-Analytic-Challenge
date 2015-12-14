@@ -154,6 +154,12 @@ It appears the quickest and most severe way to get a customer to post about thei
  The next phase of the code is making it interactive. Allowing the user to determine which path to pursue when shown frequency data for a particular set of data. (eg mine Twitter for just one bank, for two separate banks, whether to point the search toward finding critical posts or testimonial posts. Giving the user data output options. Incorporating and/or translating the code into another language that may improve efficiency.
 </p>
 
+<h3>
+<a id="bio" class="anchor" href="#bio" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bio</h3>
+<p>
+ Native Charlestonian and former HR professional, Neal has a returned to CofC to pursue a degree in data science and economics. Currently living in Hilton Head withhis wife and two pitbulls, he enjoys biking, the beach, kayaking, and rescuing other pitties from the Savannah area.
+</p>
+
 </div>
 </body>
 </html>
